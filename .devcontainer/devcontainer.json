@@ -9,7 +9,7 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080]
+	"forwardPorts": ["8080:3000"]
 
 	// Use 'postStartCommand' to run commands after the container is started.
 	// "postStartCommand": "yarn install",
