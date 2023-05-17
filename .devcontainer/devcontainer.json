@@ -3,13 +3,13 @@
 {
 	"name": "Bigcommerce/checkout-js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-16-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-16-bullseye"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": ["8080:3000"]
+	// "forwardPorts": ["8080:3000"]
 
 	// Use 'postStartCommand' to run commands after the container is started.
 	// "postStartCommand": "yarn install",
