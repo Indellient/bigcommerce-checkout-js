@@ -5,9 +5,11 @@ junit.xml
 __temp__
 node_modules
 build
+dist
 coverage
 /dist-tools
 /packages/**/generated
 /packages/payment-integration-test-framework/report
 /packages/payment-integration-test-framework/screenshots
 /packages/payment-integration-test-framework/videos
+.env
