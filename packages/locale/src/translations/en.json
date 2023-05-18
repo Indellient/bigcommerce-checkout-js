@@ -187,29 +187,13 @@
             "amazon_name_text": "Amazon Pay",
             "barclaycard_continue_action": "Continue",
             "bluesnap_v2_continue_action": "Continue",
-            "bluesnap_direct_account_number": {
-                "label": "Account Number",
-                "is_required": "Account Number is required",
-                "only_numbers": "Account Number must contain only numbers",
-                "length": "Account Number must have at least 8 digits"
-            },
-            "bluesnap_direct_routing_number": {
-                "label": "Routing Number",
-                "is_required": "Routing Number is required",
-                "only_numbers": "Routing Number must contain only numbers",
-                "length": "Routing Number must be 9 digits long"
-            },
-            "bluesnap_direct_account_type": {
-                "label": "Account Type",
-                "is_required": "Account Type is required"
-            },
-            "bluesnap_direct_permission": "I authorize this Electronic Check (ACH/ECP) transaction and agree to this debit of my account.",
             "bolt_benefit_1": "Shop hundreds of brands with a passwordless login",
             "bolt_benefit_2": "Check out with saved payment and shipping details",
             "bolt_benefit_3": "Benefit from PCI-compliant account security",
             "bolt_checkbox_agreement": "Save my information, create a Bolt account, and agree to Bolt’s <a href=\"{termsUrl}\" target=\"_blank\">Terms of Use</a> and <a href=\"{privacyPolicyUrl}\" target=\"_blank\">Privacy Policy</a>.",
             "bolt_name_text": "Bolt",
             "braintreevisacheckout_continue_action": "Continue with Visa Checkout",
+            "braintreeach_mandate_text": "By clicking Place Order, I authorize Braintree, a service of PayPal, on behalf of {storeName} to verify my bank account information using bank information and consumer reports and I authorize {storeName} to initiate an ACH/electronic debit to my {accountType} account, Depository Name: {depositoryName}, Routing Number: {routingNumber} and Account Number: {accountNumber}, in the amount of {outstandingBalance} on {currentDate}. I agree the ACH transactions I authorize comply with all applicable laws.",
             "complete_with_brand": "Complete order",
             "continue_with_brand": "Continue with {brandName}",
             "ccavenuemars_description_text": "Checkout with CCAvenue",
@@ -343,7 +327,7 @@
             "account_routing_label": "Routing Number",
             "account_type_label": "Account Type",
             "ownership_type_label": "Ownership Type",
-            "business_name_label": "Business Number",
+            "business_name_label": "Business Name",
             "errors": {
                 "account_number_required_error": "Account Number is required",
                 "routing_number_required_error": "Routing Number is required",
