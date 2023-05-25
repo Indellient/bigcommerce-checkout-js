@@ -25,5 +25,5 @@ jobs:
 
           for branch in main staging devqa; do
             git checkout $branch
-            git push azure HEAD:$branch
+            git push --force azure HEAD:$branch
           done
