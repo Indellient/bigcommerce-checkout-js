@@ -23,8 +23,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git fetch --unshallow origin
           git remote add azure $AZURE_PAT_URL
-
-          for branch in main staging devqa; do
-            git checkout $branch
-            git push --force azure HEAD:$branch
-          done
+          branch=${GITHUB_REF#refs/heads/}
+          git push --force azure HEAD:$branch
