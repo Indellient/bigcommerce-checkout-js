@@ -22,9 +22,9 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git remote add azure $AZURE_REPO_URL
+          git -c http.extraheader="AUTHORIZATION: bearer $AZURE_PAT" remote add azure $AZURE_REPO_URL
 
           for branch in main staging devqa; do
             git checkout $branch
-            git -c http.extraheader="AUTHORIZATION: bearer $AZURE_PAT" push azure HEAD:$branch
+            git push azure HEAD:$branch
           done
